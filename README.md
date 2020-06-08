@@ -2,7 +2,7 @@ Rolled your own parse-server, and realized scheduled jobs don't work out of the 
 
 ## Usage 
 
-in your `cloud/index.js` or `app.js` simply include:
+run `npm install parse-server-scheduler` in your `cloud/index.js` or `app.js` simply include:
 
 ```
 require('parse-server-scheduler')(Parse)
