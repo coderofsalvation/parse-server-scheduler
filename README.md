@@ -12,7 +12,7 @@ require('parse-server-scheduler')(Parse)
 
 ## Why
 
-![](scheduler.jpg)
+![](https://raw.githubusercontent.com/coderofsalvation/parse-server-scheduler/master/scheduler.jpg)
 
 Parse exposes scheduled jobs as HTTP endpoints, which is great and a disappointment at the same time :)<br><br>
 This empowers your server with an internal scheduler using the `cron` and `moment` npm-packages.
