@@ -1,6 +1,6 @@
 {
   "name": "parse-server-scheduler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get scheduled jobs to run automatically (without external server) in parse",
   "main": "index.js",
   "scripts": {
