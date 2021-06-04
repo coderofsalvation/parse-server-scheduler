@@ -247,7 +247,7 @@ module.exports = (Parse) => {
 
         // Destroy schedule for removed job
         Parse.Cloud.afterDelete('_JobSchedule', async (request) => {
-            destroySchedule(request.object)
+            destroySchedule(request.object.id)
         })
     }
 
